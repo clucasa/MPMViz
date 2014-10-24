@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{53e4f261-7dd3-49a6-aeed-3ee7776fb029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ShaderSystem">
+      <UniqueIdentifier>{f87bc455-0552-4160-b741-ccc47abc940e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{20419f37-7fba-41cc-baf1-2d610d9eaf41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Rendering">
+      <UniqueIdentifier>{879da6f5-67fd-4dd1-a04c-8e9860ed959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Rendering\Structs">
+      <UniqueIdentifier>{d3f04f96-6482-4a51-a756-e7bf8fa97a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Rendering\Structs\Mat4">
+      <UniqueIdentifier>{8303460c-c5d7-4c4c-955e-1e8d80b10cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Rendering\Structs\Vec3">
+      <UniqueIdentifier>{97d9bd8a-854d-475f-8fc4-a5494f9af9e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Main..cpp" />
+    <ClCompile Include="ShaderSystem.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4.cpp">
+      <Filter>System\Rendering\Structs\Mat4</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>System\Rendering\Structs\Vec3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSystem.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>System\Rendering\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>System\Rendering\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.h">
+      <Filter>System\Rendering\Structs\Mat4</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>System\Rendering\Structs\Vec3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mainvs.v.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="mainfs.f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
